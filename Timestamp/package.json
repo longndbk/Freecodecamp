@@ -1,10 +1,15 @@
 {
   "name": "timestamp",
   "version": "1.0.0",
-  "description": "",
+  "private":true,
+  "engines":{
+    "npm": "3.10.9",
+    "node": "v7.1.0"
+  },
+  "description": "FreeCodeCamp timestamp-microservice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Nguyen Duc Long",
   "license": "ISC",
