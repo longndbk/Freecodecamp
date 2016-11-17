@@ -1,0 +1,19 @@
+{
+  "name": "request",
+  "version": "1.0.0",
+  "private":true,
+  "engines":{
+    "npm": "3.10.9",
+    "node": "v7.1.0"
+  },
+  "description": "FreeCodeCamp timestamp-microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Nguyen Duc Long",
+  "license": "ISC",
+  "dependencies": {
+  "express": "^4.14.0"
+  }
+}
